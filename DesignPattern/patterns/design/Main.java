@@ -10,7 +10,7 @@ import java.lang.reflect.InvocationTargetException;
 public class Main {
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, IOException, ClassNotFoundException, CloneNotSupportedException {
 
-        // Singleton Design
+        // Singleton Design - Starts
  /*       Samosa samosa = Samosa.getSamosa();
 
         System.out.println(samosa.hashCode());
@@ -66,11 +66,18 @@ public class Main {
         System.out.println(samosa2.hashCode());*/
 
         // Cloning Example
-        Samosa samosa = Samosa.getSamosa();
+        /*Samosa samosa = Samosa.getSamosa();
         System.out.println(samosa.hashCode());
 
         Samosa samosa1 = (Samosa) samosa.clone();
-        System.out.println(samosa1.hashCode());
+        System.out.println(samosa1.hashCode());*/
+
+        // Singleton Design - Ends
+
+
+        // Factory Design - Starts
+
+        // Factory Design - Ends
     }
 
 }
