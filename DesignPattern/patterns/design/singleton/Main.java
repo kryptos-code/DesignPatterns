@@ -1,4 +1,4 @@
-package DesignPattern.patterns.design;
+package DesignPattern.patterns.design.singleton;
 
 import DesignPattern.patterns.design.singleton.Samosa;
 import DesignPattern.patterns.design.singleton.SamosaEnum;
