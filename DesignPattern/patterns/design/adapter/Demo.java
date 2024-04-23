@@ -4,8 +4,10 @@ public class Demo {
     public static void main(String[] args) {
         System.out.println("Program started::");
 
-        //AppleCharger charger = new ChargerXYZ();
-        //Iphone13 iphone13 = new Iphone13(charger);
+        AppleCharger charger = new ChargerXYZ();
+        Iphone13 iphone13a = new Iphone13(charger);
+        iphone13a.chargeIphone();
+
         AdapterCharger newCharger = new AdapterCharger( new ChargerDA());
         Iphone13 iphone13 = new Iphone13(newCharger);
         iphone13.chargeIphone();
